@@ -1,5 +1,3 @@
-Here's a README.md script for your CSES Problem Set solutions repository in C++:
-
 ## CSES Problem Set Solutions (C++)
 
 This repository contains my solutions to problems from the CSES Problem Set ([https://cses.fi/](https://cses.fi/)). Each section of the problem set has its own directory, and the solutions are written in C++.
