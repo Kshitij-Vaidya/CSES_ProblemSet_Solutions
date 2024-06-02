@@ -1,7 +1,7 @@
 #include<iostream>
 #include<vector>
 #include<algorithm>
-#include<map>
+#include<set>
 
 using namespace std;
 
@@ -12,15 +12,23 @@ int main(){
     cin >> n >> m;
 
     // Contains a frequency map of the tickets
-    map<int, int> hash;
+    multiset<int> hash;
 
     while(n--){
         ll i; cin >> i;
-        hash[i] += 1;
+        hash.insert(i);
     }
 
     while(m--){
-        auto upper = hash.upper_bound()
+        ll i; cin >> i;
+        auto upper = hash.upper_bound(i);
+        if (upper == hash.begin()){
+            cout << -1 << '\n';
+        } else {
+            upper--;
+            cout << *upper << '\n';
+            hash.erase(upper);
+        }
     }
-    
+    return 0;
 }
