@@ -18,7 +18,7 @@ The repository is organized as follows:
 └── ... (Directories for other problem sections)
 ```
 
-Each solution file is named according to the problem name (e.g., `weird_algorithm.cpp`).
+Each solution file is named according to the problem name (e.g., `WeirdAlgorithm.cpp`).
 
 ### Usage
 
