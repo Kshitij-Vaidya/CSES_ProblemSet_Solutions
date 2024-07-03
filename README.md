@@ -22,7 +22,7 @@ Each solution file is named according to the problem name (e.g., `WeirdAlgorithm
 
 ### Usage
 
-This repository serves as a personal record of your problem-solving journey and may not be directly executable. Here's a general approach to using these solutions:
+This repository serves as a personal record of my problem-solving journey and may not be directly executable. Here's a general approach to using these solutions:
 
 1. **Access the CSES Problem Set:** Visit [https://cses.fi/](https://cses.fi/) to explore the problems.
 2. **Choose a problem:** Select a problem from a specific section and understand its requirements.
